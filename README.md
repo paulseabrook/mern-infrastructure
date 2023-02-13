@@ -12,16 +12,18 @@ Here's the process to create a new MERN-Stack project that starts with the infra
 
 4. Install the Node modules: npm i
 
-5. Create a .env (touch .env) and add entries for DATABASE_URL and SECRET
+5. Builds the react app: npm run build
 
-6. Update the "name": "mern-infrastructure" in package.json to the name of your project.
+6. Create a .env (touch .env) and add entries for DATABASE_URL and SECRET
 
-7. Create a new repo on your personal GH account.
+7. Update the "name": "mern-infrastructure" in package.json to the name of your project.
 
-8. Copy the new GH repo's URL.
+8. Create a new repo on your personal GH account.
 
-9. Update the remote's URL: git remote set-url origin <paste the copied GH url>
+9. Copy the new GH repo's URL.
 
-10. Make the initial commit: git add -A && git commit -m "Initial commit"
+10. Update the remote's URL: git remote set-url origin <paste the copied GH url>
 
-11. Push for the first time: git push -u origin main
+11. Make the initial commit: git add -A && git commit -m "Initial commit"
+
+12. Push for the first time: git push -u origin main
